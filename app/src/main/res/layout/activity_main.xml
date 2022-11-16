@@ -7,47 +7,55 @@
     tools:context=".First_activity">
 
     <ImageView
-        android:id="@+id/IV_Log"
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="272dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtAppName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/gallery" />
+        app:srcCompat="@drawable/gallery"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="0dp"/>
+
 
     <TextView
-        android:id="@+id/TV_Title"
+        android:id="@+id/txtAppName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="App Name"
-        app:layout_constraintBottom_toTopOf="@+id/TV_Title2"
+        android:text="AppName"
+        android:textColor="@color/pink_normal"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/txt"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/IV_Log"
-        app:layout_constraintVertical_bias="0.739" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <TextView
-        android:id="@+id/TV_Title2"
+        android:id="@+id/txt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:text="Lorem ipsum dolor sit amet, consectetur"
-        app:layout_constraintBottom_toTopOf="@+id/TV_BottomText"
+        android:textSize="17sp"
+        android:textColor="@color/pink_light"
+        app:layout_constraintBottom_toTopOf="@+id/txtTeam"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/IV_Log"
-        app:layout_constraintVertical_bias="0.245" />
+        app:layout_constraintTop_toBottomOf="@+id/txtAppName" />
 
     <TextView
-        android:id="@+id/TV_BottomText"
+        android:id="@+id/txtTeam"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Product of Team Name"
+        android:textColor="@color/pink_light"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/IV_Log"
-        app:layout_constraintVertical_bias="0.881" />
+        app:layout_constraintTop_toBottomOf="@+id/txt" />
+
 </android.support.constraint.ConstraintLayout>

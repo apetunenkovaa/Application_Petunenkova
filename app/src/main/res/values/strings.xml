@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Application_Petunenkova</string>
+    <string name="txtTeam"><font color=">Product of</font><font color="#"><b>Team Name</b></font></string>
+    <string name="Reg">Register</string>
+    <string name="FullName">Full Name</string>
+    <string name="EnterPhone">Enter Email / Phone Number</string>
+    <string name="tAgree">I agree with terms &amp; conditions</string>
+    <string name="tAlready"><font color=">Already registered ?Let’s </font><font color="#"><b>Login</b></font></string>
+    <string name="Account">Account Created\nSuccessfully</string>
+    <string name="Log">Log In</string>
+    <string name="ForgetPass">Forget Password?</string>
+    <string name="Remember">Remember Password</string>
+    <string name="HaveAccount"><font color="@">Dont’ have an account? Let’s  </font><font color="#"><b>Register</b></font></string>
 </resources>
